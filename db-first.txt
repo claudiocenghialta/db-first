@@ -1,0 +1,19 @@
+Sviluppare una tabella che riguarda le auto di un concessionario di auto usate.
+La seguente tabella dovrà contenere i dati che possono servire al gestore di attività.
+
+ID			NUMERO INCREMENTALE		PRIMARY KEY,UNIQUE, Auto increment
+MODELLO			varchar(30)			not null
+MARCA			varchar(20)			not null
+ANNO IMMATRICOLAZIONE	year				not null
+KM PERCORSI		mediumint			not null
+PROPRIETARI PRECEDENTI	tinyint				
+VERSIONE		varchar(30)
+CILINDRATA		smallint			not null
+CAVALLI			smallint			not null
+KW			smallint			not null
+TIPO CARROZZERIA	varchar(20)			
+TIPO ALIMENTAZIONE	varchar(20)			not null
+CAMBIO			varchar(15)			
+N. PORTE		tinyint				
+ACCESSORI		text				
+CLASSE EMISSIONI	varchar(10)			
